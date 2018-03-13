@@ -9,6 +9,7 @@ class CfgPatches
 		{
 			"r3f_armes_c",
 			"r3f_acc",
+			"r3f_armes",
 			"asdg_jointrails"
 		};
 		author[]=
@@ -163,6 +164,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -184,6 +189,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -205,6 +214,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -214,7 +227,7 @@ class CfgWeapons
 		{
 			class asdg_FrontSideRail_r3F
 			{
-		            R3F_PIRAT=1;
+		        R3F_PIRAT=1;
 			    R3F_PIRAT_DES=1;
 			};
 			class asdg_OpticRail_r3f: asdg_OpticRail1913
@@ -226,6 +239,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -247,6 +264,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -268,6 +289,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -289,6 +314,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -310,6 +339,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -330,6 +363,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -350,6 +387,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -370,6 +411,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -390,6 +435,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -411,6 +460,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -432,6 +485,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -453,6 +510,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -474,6 +535,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -495,6 +560,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -516,6 +585,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -536,6 +609,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
@@ -556,6 +633,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
+				R3F_APAV40=1;
+				R3F_AC58=1;
+				R3F_FUM40=1;
+				R3F_ECL40=1;
 			};
 		};
 	};
