@@ -851,7 +851,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class R3F_MP5A5SD: R3F_MP5SD
+	class R3F_MP5A5: R3F_MP5SD
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
