@@ -97,6 +97,16 @@ class asdg_UnderSlot: asdg_SlotInfo
 	{
 		R3F_SILENCIEUX_HK416=1;
 		R3F_SILENCIEUX_HK416_DES=1;
+		
+	};
+};
+
+    class asdg_MuzzleSlot_762: asdg_MuzzleSlot
+{
+	class compatibleItems
+	{
+		R3F_SILENCIEUX_HK417=1;
+		R3F_SILENCIEUX_HK417_DES=1;
 	};
 };
 
@@ -151,6 +161,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_F1_DES: R3F_Famas_F1
@@ -168,6 +181,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -187,6 +203,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_F1_HG_DES: R3F_Famas_F1
@@ -204,6 +223,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -223,6 +245,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_F1_M203_DES: R3F_Famas_F1
@@ -240,6 +265,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -259,6 +287,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_surb_DES: R3F_Famas_F1
@@ -277,6 +308,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_surb_HG: R3F_Famas_F1
@@ -293,6 +327,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -311,6 +348,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_surb_M203: R3F_Famas_F1
@@ -328,6 +368,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_surb_M203_DES: R3F_Famas_F1
@@ -344,6 +387,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -363,6 +409,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_G2_DES: R3F_Famas_F1
@@ -380,6 +429,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -399,6 +451,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_G2_HG_DES: R3F_Famas_F1
@@ -416,6 +471,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -435,6 +493,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_G2_M203_DES: R3F_Famas_F1
@@ -453,6 +514,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_felin: R3F_Famas_G2
@@ -470,6 +534,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Famas_felin_DES: R3F_Famas_G2
@@ -486,6 +553,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -604,6 +674,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_Minimi_HG: R3F_Minimi
@@ -611,6 +684,9 @@ class CfgWeapons
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
 			{
 			};
 		};
@@ -626,6 +702,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_762_r3f: asdg_MuzzleSlot_762
+			{
+			};
 		};
 	};
 	class R3F_Minimi_762_HG: R3F_Minimi_762
@@ -633,6 +712,9 @@ class CfgWeapons
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_MuzzleSlot_762_r3f: asdg_MuzzleSlot_762
 			{
 			};
 		};
@@ -651,6 +733,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_762_r3f: asdg_MuzzleSlot_762
+			{
+			};
 		};
 	};
 	class R3F_HK417L: Rifle_Base_F
@@ -666,6 +751,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_762_r3f: asdg_MuzzleSlot_762
+			{
 			};
 		};
 	};
@@ -683,6 +771,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_762_r3f: asdg_MuzzleSlot_762
+			{
+			};
 		};
 	};
 	class R3F_HK417M_HG: R3F_HK417M
@@ -698,6 +789,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_762_r3f: asdg_MuzzleSlot_762
+			{
 			};
 		};
 	};
@@ -715,6 +809,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_762_r3f: asdg_MuzzleSlot_762
+			{
+			};
 		};
 	};
 	class R3F_HK417S_HG: Rifle_Base_F
@@ -730,6 +827,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_762_r3f: asdg_MuzzleSlot_762
+			{
 			};
 		};
 	};
@@ -747,6 +847,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_762_r3f: asdg_MuzzleSlot_762
+			{
+			};
 		};
 	};
 	class R3F_HK416M: Rifle_Base_F
@@ -762,6 +865,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -779,6 +885,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_HK416M_HG: R3F_HK416M
@@ -794,6 +903,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -811,6 +923,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_HK416M_M203: Rifle_Base_F
@@ -826,6 +941,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
@@ -843,6 +961,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_SIG551: Rifle_Base_F
@@ -859,6 +980,9 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
+			};
 		};
 	};
 	class R3F_SIG551_CE: R3F_SIG551
@@ -874,6 +998,9 @@ class CfgWeapons
 				{
 					optic_Yorris=1;
 				};
+			};
+			class asdg_MuzzleSlot_556_r3f: asdg_MuzzleSlot_556
+			{
 			};
 		};
 	};
