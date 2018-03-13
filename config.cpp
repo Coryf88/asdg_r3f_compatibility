@@ -19,7 +19,9 @@ class CfgPatches
 };
 class asdg_SlotInfo;
 class asdg_FrontSideRail: asdg_SlotInfo
-{
+{   
+    linkProxy="\a3\data_f\proxies\weapon_slots\side";
+	displayName="$STR_A3_PointerSlot0";
 	class compatibleItems
 	{
 		R3F_LAMPE_SURB=1;
@@ -28,9 +30,14 @@ class asdg_FrontSideRail: asdg_SlotInfo
 		R3F_POINTEUR_SURB_DES=1;
 	};
 };
+
+class asdg_SlotInfo;
 class asdg_OpticRail;
 class asdg_OpticRail1913: asdg_OpticRail
 {
+
+    linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
+	displayName="$STR_A3_CowsSlot0";
 	class compatibleItems
 	{
 		R3F_AIMPOINT=1;
@@ -53,14 +60,46 @@ class asdg_OpticRail1913: asdg_OpticRail
 		R3F_NF42=1;
 		R3F_NF_DES=1;
 		R3F_NF42_DES=1;
-		R3F_ZEISS=1;
-		R3F_ZEISS_DES=1;
 		R3F_OB50=1;
 		R3F_FELIN=1;
 		R3F_FELIN_DES=1;
 		R3F_FELIN_FRF2=1;
 	};
 };
+	
+class asdg_UnderSlot: asdg_SlotInfo
+{
+	linkProxy="\a3\data_f_mark\Proxies\Weapon_Slots\UNDERBARREL";
+	iconPicture="\a3\weapons_f_mark\Data\UI\attachment_under";
+	iconPinpoint="Bottom";
+	class compatibleItems
+	{
+		bipod_01_F_snd=1;
+		bipod_01_F_blk=1;
+		bipod_01_F_mtp=1;
+		bipod_02_F_blk=1;
+		bipod_02_F_tan=1;
+		bipod_02_F_hex=1;
+		bipod_03_F_blk=1;
+		bipod_03_F_oli=1;
+		bipod_01_F_khk=1;
+		R3F_BIPIED_HK417=1;
+		R3F_BIPIED_HK417_DES=1;
+	};
+};	
+	
+    class asdg_MuzzleSlot;
+    class asdg_MuzzleSlot_556: asdg_MuzzleSlot
+{
+	displayName="$str_a3_cfgweapons_abr_base_f_weaponslotsinfo_muzzleslot0";
+	linkProxy="\A3\data_f\proxies\weapon_slots\MUZZLE";
+	class compatibleItems
+	{
+		R3F_SILENCIEUX_HK416=1;
+		R3F_SILENCIEUX_HK416_DES=1;
+	};
+};
+
 class CfgWeapons
 {
 	class Rifle;
