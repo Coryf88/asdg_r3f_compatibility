@@ -53,6 +53,8 @@ class asdg_OpticRail1913: asdg_OpticRail
 		R3F_NF42=1;
 		R3F_NF_DES=1;
 		R3F_NF42_DES=1;
+		R3F_ZEISS=1;
+		R3F_ZEISS_DES=1;
 		R3F_OB50=1;
 		R3F_FELIN=1;
 		R3F_FELIN_DES=1;
@@ -112,7 +114,184 @@ class CfgWeapons
 			};
 		};
 	};
+	class R3F_Famas_F1_DES: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+				R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_F1_HG: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			     R3F_PIRAT=1;
+			     R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_F1_HG_DES: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+		            R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_F1_M203: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			    R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_F1_M203_DES: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			    R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
 	class R3F_Famas_surb: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			    R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_surb_DES: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			    R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_surb_HG: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+				delete compatibleItems;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_surb_HG_DES: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+				delete compatibleItems;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_surb_M203: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+				delete compatibleItems;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_surb_M203_DES: R3F_Famas_F1
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -130,9 +309,131 @@ class CfgWeapons
 		};
 	};
 	class R3F_Famas_G2: R3F_Famas_F1
+	{ 
+	class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			    R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_G2_DES: R3F_Famas_F1
 	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			    R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_G2_HG: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			    R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_G2_HG_DES: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			    R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_G2_M203: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			    R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_G2_M203_DES: R3F_Famas_F1
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+			    R3F_PIRAT=1;
+			    R3F_PIRAT_DES=1;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
 	};
 	class R3F_Famas_felin: R3F_Famas_G2
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F
+			{
+				delete compatibleItems;
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_Famas_felin_DES: R3F_Famas_G2
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -162,6 +463,19 @@ class CfgWeapons
 			};
 		};
 	};
+	class R3F_FRF2_DES: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	}
 	class R3F_PGM_Hecate_II: Rifle_Base_F
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -175,7 +489,59 @@ class CfgWeapons
 			};
 		};
 	};
+	class R3F_PGM_Hecate_II_DES: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_PGM_Hecate_II_POLY: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
 	class R3F_M107: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_M107_DES: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_TAC50: Rifle_Base_F
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -248,6 +614,102 @@ class CfgWeapons
 			};
 		};
 	};
+	class R3F_HK417L: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_HK417M_DES: R3F_HK417M
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_HK417M_HG: R3F_HK417M
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_HK417M_HG_DES: R3F_HK417M
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_HK417S_HG: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_HK417S_HG_DES: R3F_HK417S_HG
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
 	class R3F_HK416M: Rifle_Base_F
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -264,7 +726,132 @@ class CfgWeapons
 			};
 		};
 	};
+	class R3F_HK416M_DES: R3F_HK416M
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_HK416M_HG: R3F_HK416M
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_HK416M_HG_DES: R3F_HK416M
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_HK416M_M203: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_HK416M_M203_DES: R3F_HK416M_M203
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_SIG551: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_SIG551_CE: R3F_SIG551
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_FrontSideRail_r3F: asdg_FrontSideRail
+			{
+			};
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
 	class R3F_MP5SD: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class asdg_OpticRail_r3f: asdg_OpticRail1913
+			{
+				class compatibleItems: compatibleItems
+				{
+					optic_Yorris=1;
+				};
+			};
+		};
+	};
+	class R3F_MP5A5SD: R3F_MP5SD
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
