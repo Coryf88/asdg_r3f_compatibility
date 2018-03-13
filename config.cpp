@@ -37,7 +37,7 @@ class asdg_OpticRail;
 class asdg_OpticRail1913: asdg_OpticRail
 {
 
-    linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
+        linkProxy="\A3\data_f\proxies\weapon_slots\TOP";
 	displayName="$STR_A3_CowsSlot0";
 	class compatibleItems
 	{
