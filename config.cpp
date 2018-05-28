@@ -148,6 +148,7 @@ class asdg_MuzzleSlot_556: asdg_MuzzleSlot
 	{
 		R3F_SILENCIEUX_HK416=1;
 		R3F_SILENCIEUX_HK416_DES=1;
+		muzzle_snds_M=1;
 	};
 };
 class asdg_MuzzleSlot_762: asdg_MuzzleSlot
@@ -156,8 +157,17 @@ class asdg_MuzzleSlot_762: asdg_MuzzleSlot
 	{
 		R3F_SILENCIEUX_HK417=1;
 		R3F_SILENCIEUX_HK417_DES=1;
+		muzzle_snds_B=1;
 	};
 };
+class asdg_MuzzleSlot_9mm_SMG: asdg_MuzzleSlot
+{
+    class compatibleItems
+	{
+		muzzle_snds_L = 1;
+	};
+};	
+	
 class CfgWeapons
 {
 	class ItemCore;
@@ -185,11 +195,13 @@ class CfgWeapons
 		MRT_SwitchItemPrevClass="R3F_LAMPE_SURB_DES";
 		MRT_SwitchItemHintText="SURB: Pointeur";
 	};
+	
 	class Rifle;
 	class Rifle_Base_F: Rifle
 	{
 		class WeaponSlotsInfo;
 	};
+	
 	class R3F_Famas_F1: Rifle_Base_F
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -387,8 +399,6 @@ class CfgWeapons
 				{
 					acc_flashlight=1;
 					acc_pointer_IR=1;
-					R3F_PIRAT=1;
-					R3F_PIRAT_DES=1;
 				};
 			};
 			class CowsSlot: asdg_OpticRail1913
@@ -1004,7 +1014,10 @@ class CfgWeapons
 			};
 			class asdg_MuzzleSlot_r3f: asdg_MuzzleSlot_762
 			{
-				muzzle_snds_B=1;
+				class compatibleItems: compatibleItems
+				{
+				 muzzle_snds_B=1;
+				};
 			};
 			class UnderbarrelSlot: asdg_UnderSlot
 			{
@@ -1032,7 +1045,10 @@ class CfgWeapons
 			};
 			class MuzzleSlot: asdg_MuzzleSlot_762
 			{
-				muzzle_snds_B=1;
+				class compatibleItems: compatibleItems
+				{
+				 muzzle_snds_B=1;
+				};
 			};
 			class UnderbarrelSlot: asdg_UnderSlot
 			{
@@ -1060,7 +1076,10 @@ class CfgWeapons
 			};
 			class MuzzleSlot: asdg_MuzzleSlot_762
 			{
-				muzzle_snds_B=1;
+				class compatibleItems: compatibleItems
+				{
+				 muzzle_snds_B=1;
+				};
 			};
 			class UnderbarrelSlot: asdg_UnderSlot
 			{
@@ -1088,7 +1107,10 @@ class CfgWeapons
 			};
 			class MuzzleSlot: asdg_MuzzleSlot_762
 			{
-				muzzle_snds_B=1;
+				class compatibleItems: compatibleItems
+				{
+				 muzzle_snds_B=1;
+				};
 			};
 		};
 	};
@@ -1113,7 +1135,10 @@ class CfgWeapons
 			};
 			class MuzzleSlot: asdg_MuzzleSlot_762
 			{
-				muzzle_snds_B=1;
+				class compatibleItems: compatibleItems
+				{
+				 muzzle_snds_B=1;
+				};
 			};
 		};
 	};
@@ -1138,7 +1163,10 @@ class CfgWeapons
 			};
 			class MuzzleSlot: asdg_MuzzleSlot_762
 			{
-				muzzle_snds_B=1;
+				class compatibleItems: compatibleItems
+				{
+				 muzzle_snds_B=1;
+				};
 			};
 		};
 	};
@@ -1163,7 +1191,10 @@ class CfgWeapons
 			};
 			class MuzzleSlot: asdg_MuzzleSlot_762
 			{
-				muzzle_snds_B=1;
+				class compatibleItems: compatibleItems
+				{
+				 muzzle_snds_B=1;
+				};
 			};
 		};
 	};
@@ -1188,7 +1219,10 @@ class CfgWeapons
 			};
 			class MuzzleSlot: asdg_MuzzleSlot_762
 			{
-				muzzle_snds_B=1;
+				class compatibleItems: compatibleItems
+				{
+				 muzzle_snds_B=1;
+				};
 			};
 		};
 	};
@@ -1378,7 +1412,7 @@ class CfgWeapons
 					R3F_PIRAT_DES=1;
 				};
 			};
-			class CowsSlot: asdg_OpticRail1913
+			class asdg_CowsSlot_r3f: asdg_OpticRail1913
 			{
 				class compatibleItems: compatibleItems
 				{
@@ -1439,6 +1473,7 @@ class CfgWeapons
 					optic_Yorris=1;
 				};
 			};
+			
 		};
 	};
 	class R3F_MP5A5: R3F_MP5SD
@@ -1450,6 +1485,13 @@ class CfgWeapons
 				class compatibleItems: compatibleItems
 				{
 					optic_Yorris=1;
+				};
+			};
+			class asdg_MuzzleSlot9mm_r3f: asdg_MuzzleSlot_9MM_SMG
+			{
+				class compatibleItems: compatibleItems
+				{
+					muzzle_snds_L=1;
 				};
 			};
 		};
