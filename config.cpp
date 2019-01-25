@@ -16,12 +16,12 @@ class CfgPatches {
 class CfgSounds {
 	class R3FE_Bolt1 {
 		name = "hlc_bolt_fn3011";
-		Sound[] = {"asdg_r3d_comp\sounds\FN3011_shift", 1, 1, 15};
+		Sound[] = {"\asdg_r3f_comp\sounds\FN3011_shift", 1, 1, 15};
 		titles[] = {};
 	};
 	class R3FE_Bolt2 {
 		name = "hlc_bolt_AWM";
-		Sound[] = {"asdg_r3d_comp\sounds\AWM_rechamber", 1, 1, 15};
+		Sound[] = {"\asdg_r3f_comp\sounds\AWM_rechamber", 1, 1, 15};
 		titles[] = {};
 	};
 };
@@ -126,13 +126,6 @@ class asdg_MuzzleSlot_9MM : asdg_MuzzleSlot {
 	};
 };
 
-class CfgAmmo {
-	class MissileBase;
-	class R3F_ERYX_Missile : MissileBase {
-		soundFly[] = {"A3\Sounds_F\arsenal\weapons\Launchers\Titan\Fly_Titan", 0.630957, 1.5, 300};
-	};
-};
-
 class CfgMovesBasic {
 	class DefaultDie;
 	class ManActions {
@@ -163,7 +156,7 @@ class CfgGesturesMale {
 	class Default;
 	class States {
 		class R3FE_BoltAnim : Default {
-			file = "asdg_r3d_comp\anims\rechamber_1903a1_standing.rtm";
+			file = "\asdg_r3f_comp\anims\rechamber_1903a1_standing.rtm";
 			speed = 0.59998;
 			looped = false;
 			mask = "handsWeapon";
@@ -175,7 +168,7 @@ class CfgGesturesMale {
 			leftHandIKCurve[] = {0, 1, 1, 1};
 		};
 		class R3FE_BoltAnim_Prone : Default {
-			file = "asdg_r3d_comp\anims\rechamber_1903a1_prone.rtm";
+			file = "\asdg_r3f_comp\anims\rechamber_1903a1_prone.rtm";
 			speed = 0.59998;
 			looped = false;
 			mask = "handsWeapon";
@@ -193,6 +186,10 @@ class CfgGesturesMale {
 };
 
 class CfgAmmo {
+	class MissileBase;
+	class R3F_ERYX_Missile : MissileBase {
+		soundFly[] = {"A3\Sounds_F\arsenal\weapons\Launchers\Titan\Fly_Titan", 0.630957, 1.5, 300};
+	};
 	class R3FE_Penetrator;
 	class R3FE_AC58_penetrator : R3FE_Penetrator {
 		caliber = 26.6667;
@@ -1009,7 +1006,7 @@ class CfgWeapons {
 		};
 		class CBA_weaponEvents {
 			handAction = "R3FE_BoltAnim";
-			sound = "hlc_bolt_fn3011";
+			sound = "R3FE_Bolt1";
 			soundLocation = "RightHandMiddle1";
 			delay = 0.02;
 			onEmpty = 0;
@@ -1080,7 +1077,7 @@ class CfgWeapons {
 		};
 		class CBA_weaponEvents {
 			handAction = "R3FE_BoltAnim";
-			sound = "hlc_bolt_fn3011";
+			sound = "R3FE_Bolt1";
 			soundLocation = "RightHandMiddle1";
 			delay = 0.02;
 			onEmpty = 0;
@@ -1213,7 +1210,7 @@ class CfgWeapons {
 		};
 		class CBA_weaponEvents {
 			handAction = "R3FE_BoltAnim";
-			sound = "hlc_bolt_AWM";
+			sound = "R3FE_Bolt2";
 			soundLocation = "RightHandMiddle1";
 			delay = 0.02;
 			onEmpty = 0;
